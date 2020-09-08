@@ -1,0 +1,36 @@
+# site settings
+title: SmartCT
+description: "putting citizens and data at the heart of city building"
+email: "info@smartct.org"
+baseurl: ""
+logo: "assets/img/site/main.webp"
+favicon: favicon.ico
+repo_address: ""
+messenger: ""
+facebook: ""
+twitter: ""
+instagram: ""
+mastodon: ""
+telegram: ""
+github: ""
+
+
+# exclude
+exclude:
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+# kramdown:
+#     input: GFM
+#     syntax_highlighter: rouge
+
+# plugins
+plugins:
+    - github-pages
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-sitemap
