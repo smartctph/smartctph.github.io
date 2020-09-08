@@ -3,16 +3,16 @@ title: SmartCT
 description: "putting citizens and data at the heart of city building"
 email: "info@smartct.org"
 baseurl: ""
-logo: "assets/img/site/main.webp"
+logo: "/assets/img/site/main.webp"
 favicon: favicon.ico
-repo_address: ""
+repo_address: "smartctph/smartctph.github.io"
 messenger: ""
-facebook: ""
+facebook: "SmartCTorg"
 twitter: ""
 instagram: ""
 mastodon: ""
 telegram: ""
-github: ""
+github: "smartctph"
 
 
 # exclude
