@@ -1,4 +1,24 @@
-![Creative Commons License BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)
+# smartct-landing
 
-This work and its contents by <a xmlns:cc='http://creativecommons.org/ns#' href='https://bnhr.xyz' property='cc:attributionName' rel='cc:attributionURL'>SmartCitiesPH, Inc.</a> is licensed under a <a rel='license' href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
-Other works (software, source code, etc.) referenced in this website are under their own respective licenses.<br>
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
