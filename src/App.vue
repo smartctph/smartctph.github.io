@@ -2,8 +2,18 @@
   <div id="app">
     <Navbar />
     <router-view/>
-    <footer class="bg-primary py-5 flex justify-center">
-      <img :src="require('@/assets/img/Smart-CT-White 1.png')" />
+    <footer class="bg-tertiary py-5">
+      <div class="flex flex-col items-center container mx-auto lg:px-20 px-5">
+        <img class="mx-auto" :src="require('@/assets/img/Smart-CT-White 1.png')" />
+        <div class="flex justify-center">
+          <p class="text-white text-sm py-2 font-light">
+            This work and its contents by SmartCitiesPH, Inc. is licensed under a Creative Commons
+            Attribution-NonCommercial-ShareAlike 4.0 International License. Other works (software,
+            source code, etc.) referenced in this website are under their own respective licenses.
+            This site is powered by Jekyll and hosted on Github (view source)
+          </p>
+        </div>
+      </div>
     </footer>
   </div>
 </template>
