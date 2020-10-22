@@ -1,21 +1,36 @@
 <template>
   <div class="home">
     <section class="flex flex-row py-5 items-center lg:justify-between
+<<<<<<< HEAD
     lg:flex-no-wrap flex-wrap justify-center container mx-auto lg:px-20 px-10">
+=======
+    lg:flex-no-wrap flex-wrap justify-center container mx-auto px-20">
+>>>>>>> master
       <div class="flex flex-col justify-center lg:justify-between">
         <h1 class="text-5xl font-medium select-none text-center md:text-left">
           Welcome to
         </h1>
+<<<<<<< HEAD
         <img class="object-scale-down"
         :src="require('@/assets/img/smartct-colored.svg')" />
       </div>
       <div class="p-2">
+=======
+        <img class="max-w-sm p-4"
+        :src="require('@/assets/img/smartct-colored.svg')" />
+      </div>
+      <div class="p-4">
+>>>>>>> master
         <img class="object-scale-down" :src="require('@/assets/img/rafiki.png')" />
       </div>
     </section>
     <section class="flex flex-row py-10 items-center lg:justify-between justify-center
     lg:space-y-0 space-y-8 lg:flex-no-wrap justify-center flex-wrap lg:space-x-4
+<<<<<<< HEAD
     container mx-auto lg:px-20 px-5">
+=======
+    container mx-auto px-20">
+>>>>>>> master
       <div class="flex flex-col space-y-3 max-w-sm">
         <span class="bg-gray-400 px-4 h-20 w-full">
           &nbsp;
@@ -80,10 +95,17 @@
         </a>
       </div>
     </section>
+<<<<<<< HEAD
     <section class="bg-primary py-20">
       <div class="lg:container lg:mx-auto flex scrolling-auto pb-5 overflow-y-visible
       lg:justify-between lg:px-20 space-x-6 overflow-x-auto mx-5">
         <div class="card bg-white rounded-lg max-w-xs p-4 flex flex-col shadow-md flex-shrink-0">
+=======
+    <section class="bg-primary">
+      <div class="container mx-auto px-20 flex py-10 justify-center flex-wrap items-center
+      lg:justify-between space-y-6 lg:space-y-0">
+        <div class="card bg-white rounded-lg max-w-xs p-4 flex flex-col shadow-md">
+>>>>>>> master
           <span class="bg-gray-400 px-4 h-20 w-20 mx-auto m-2 rounded-full">
             &nbsp;
           </span>
@@ -95,7 +117,11 @@
             do eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
+<<<<<<< HEAD
         <div class="card bg-white rounded-lg max-w-xs p-4 flex flex-col shadow-md flex-shrink-0">
+=======
+        <div class="card bg-white rounded-lg max-w-xs p-4 flex flex-col shadow-md">
+>>>>>>> master
           <span class="bg-gray-400 px-4 h-20 w-20 mx-auto m-2 rounded-full">
             &nbsp;
           </span>
@@ -107,7 +133,11 @@
             do eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
+<<<<<<< HEAD
         <div class="card bg-white rounded-lg max-w-xs p-4 flex flex-col shadow-md flex-shrink-0">
+=======
+        <div class="card bg-white rounded-lg max-w-xs p-4 flex flex-col shadow-md">
+>>>>>>> master
           <span class="bg-gray-400 px-4 h-20 w-20 mx-auto m-2 rounded-full">
             &nbsp;
           </span>
@@ -121,6 +151,7 @@
         </div>
       </div>
     </section>
+<<<<<<< HEAD
     <section class="bg-white flex flex-col py-10 container mx-auto lg:px-20 px-5 pb-16">
       <h2 class="text-2xl font-medium text-center my-4">
         Partner Organizations
@@ -142,6 +173,8 @@
         <img class="p-2 flex-shrink" :src="require('@/assets/img/partners/3 4.png')" />
       </div>
     </section>
+=======
+>>>>>>> master
   </div>
 </template>
 
